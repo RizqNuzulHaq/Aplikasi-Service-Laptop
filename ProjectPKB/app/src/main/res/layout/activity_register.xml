@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent">
+
+            <TextView
+                android:textColor="@color/actionBar"
+                android:textSize="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Service Code"/>
+            <EditText
+                android:id="@+id/editTextScode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Service Code"
+                android:inputType="text"/>
+
+            <TextView
+                android:textColor="@color/actionBar"
+                android:textSize="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Name"/>
+            <EditText
+                android:id="@+id/editTextName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Customer Name"
+                android:inputType="text"/>
+
+            <TextView
+                android:textColor="@color/actionBar"
+                android:textSize="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="E-mail"/>
+            <EditText
+                android:id="@+id/editTextEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Customer email"
+                android:inputType="textEmailAddress"/>
+
+            <TextView
+                android:textColor="@color/actionBar"
+                android:textSize="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Phone"/>
+            <EditText
+                android:id="@+id/editTextPhone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Customer Phone Number"
+                android:inputType="phone"/>
+
+            <TextView
+                android:textColor="@color/actionBar"
+                android:textSize="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Product"/>
+            <EditText
+                android:id="@+id/editTextProduct"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Product"
+                android:inputType="text"/>
+
+            <TextView
+                android:textColor="@color/actionBar"
+                android:textSize="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Serial Number"/>
+            <EditText
+                android:id="@+id/editTextSnumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Serial Number"
+                android:inputType="text"/>
+
+            <TextView
+                android:textColor="@color/actionBar"
+                android:textSize="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Service Date" />
+            <TextView
+                android:id="@+id/editTextSdate"
+                android:drawableLeft="@drawable/ic_calendar_foreground"
+                android:hint="Set Date"
+                android:textSize="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:textColor="@color/actionBar"
+                android:textSize="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Service Inquiry"/>
+            <EditText
+                android:id="@+id/editTextSinquiry"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Service Inquiry"
+                android:inputType="text"/>
+
+            <TextView
+                android:textColor="@color/actionBar"
+                android:textSize="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Status"/>
+            <EditText
+                android:id="@+id/editTextStatus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Status"
+                android:inputType="text"/>
+
+            <Button
+                android:backgroundTint="@color/actionBar"
+                android:id="@+id/buttonAdd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ADD"/>
+
+            <Button
+                android:backgroundTint="@color/actionBar"
+                android:id="@+id/buttonBack"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cancel"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
